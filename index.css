@@ -1,0 +1,316 @@
+html {
+    font-size: 10px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "IBM Plex Mono", serif;
+}
+p, h1, h2, h3 {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 7rem;
+    font-size: 2rem;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+header p{
+    padding: 0 15rem;
+    color: #63BC39;
+}
+header p b{
+    color: #fff;
+}
+.firstWin {
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.left1 {
+    width: 40%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15rem;
+}
+.left1 h1{
+    font-size: 6.4rem;
+}
+.left1 Button {
+    width: 35rem;
+    height: 8rem;
+    border: none;
+    background-color: #63BC39;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.listItem {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    font-weight: 500;
+}
+.listItem p {
+    font-size: 3.2rem;
+    padding-bottom: 3rem;
+    word-spacing: -6px;
+}
+.right1 {
+    margin-right: 15rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.right1Photo {
+    width: 70rem;
+    height: 70rem;
+    background-image: url(img/pngwing.com.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.secondWin {
+    width: 100%;
+    height: 90rem;
+    color: #000;
+}
+.secondWin h1{
+    height: 10rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 6.4rem;
+    text-align: center;
+}
+.secondWin1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.left2, .right2 {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left2 h2, .right2 h2 {
+    text-align: center;
+    font-size: 3.6rem;
+    margin: 5rem 0;
+}
+.ulul {
+    width: 100%;
+    padding: 0%;
+}
+.ulul li p{
+    font-size: 2rem;
+    text-align: center;
+}
+.ulul li b{
+    font-size: 2rem;
+    text-align: center;
+    color: #63BC39;
+}
+.ulul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.line {
+    width: 50%;
+    height: 1px;
+    background-color: #000;
+}
+.center2 {
+    width: 2px;
+    height: 60rem;
+    background-color: #000;
+}
+
+.threeWin {
+    width: 100%;
+    height: 90rem;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.left3, .right3 {
+    display: flex;
+    flex-direction: column;
+    border: #63BC39 3px solid;
+    border-radius: 10px;
+}
+.right3 {
+    margin: 10rem 0 0;
+    padding: 2rem;
+    text-align: center;
+}
+.left3 {
+    width: 30%;
+    margin: 10rem 6rem 0 0;
+    text-align: center;
+    padding: 2rem;
+}
+.left3 h2, .right3 h2{
+    font-size: 3.2rem;
+}
+.right3 h2 {
+    margin-bottom: 3rem;
+}
+.forma {
+    display: flex;
+    flex-direction: column;
+}
+.forma input {
+    height: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+.forma textarea{
+    height: 20rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+input.buttonOk {
+    height: 5rem;
+    background-color: #63BC39;
+    border: none;
+    font-size: 2rem;
+    font-family: "IBM Plex Mono", serif;
+}
+.fourWin {
+    height: 80rem;
+    width: 100%;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil {
+    width: 80%;
+    height: 80%;
+    border: #333 3px solid;
+    display: flex;
+    justify-content: center;
+}
+.left4, .right4 {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.man {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 10000px;
+    background-image: url(img/human.jpg);
+    background-size: cover;
+}
+.right4 h2{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+.right4 p{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.fiveWin {
+    width: 100%;
+    height: 40rem;
+    color: #000;
+}
+.fiveWin h1 {
+    color: #fff;
+    font-size: 6rem;
+    background-color: #333;
+    text-align: center;
+}
+.fiveWin1 {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftBtn, .rightBtn {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100rem;
+    font-size: 2rem;
+    background-color: #333;
+    color: #fff;
+    display: grid;
+    align-items: center;
+
+}
+.center5 {
+    width: 80%;
+}
+.reviewActive {
+    width: calc(100% - 4rem);
+    height: 15rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    border: #333 3px solid;
+    font-size: 2.4rem;
+    padding: 2rem;
+}
+.review {
+    display: none;
+}
+footer {
+    width: 100%;
+    height: 30rem;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+footer span p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+footer h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+footer h2 {
+    font-size: 3rem;
+}
+.info {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.tp a{
+    text-decoration: none;
+    color: #000;
+}
