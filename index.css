@@ -1,6 +1,10 @@
 html {
     font-size: 10px;
 }
+a {
+    color: #fff;
+    text-decoration: none;
+}
 body {
     padding: 0;
     margin: 0;
@@ -22,12 +26,14 @@ header {
     align-items: center;
     font-weight: 600;
 }
-header p{
+header a{
     padding: 0 15rem;
     color: #63BC39;
 }
 header p b{
     color: #fff;
+    padding: 0 15rem;
+
 }
 .firstWin {
     width: 100%;
@@ -299,7 +305,7 @@ footer h1 {
     font-size: 4rem;
     margin-top: 2rem;
 }
-footer h2 {
+footer a {
     font-size: 3rem;
 }
 .info {
